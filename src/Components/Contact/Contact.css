@@ -1,0 +1,48 @@
+.contact{
+    display: flex;
+    align-items: center;
+    margin: 110px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-detail{
+    max-width: 400px;
+    
+}
+.contact-detail h3{
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+.contact-detail p{
+    color: rgb(112, 110, 110);
+    margin: 15px 0;
+}
+.contact ul li{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+.contact span{
+    color: rgb(112, 110, 110);
+    font-size: 16px;
+}
+@media(max-width: 650px){
+    .contact{
+        
+        gap: 20px;
+    }
+   
+    .contact-detail h3{
+        font-size: 20px;
+        font-weight: 400;
+        max-width: 400px;
+        text-align: center;
+    }
+    .contact-detail p {
+        color: rgb(112, 110, 110);
+        text-align: center;
+        margin: 15px 0;
+        max-width: 300px;
+    }
+}

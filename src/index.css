@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(253, 250, 244);
+}
+
+.btn{
+    padding: 12px 19px;
+    border-radius: 20px;
+    background-color: hsla(57, 89%, 47%, 0.938);
+    color: #030303;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container{
+    padding: 0 10%;
+}
+.svg{
+    color: #ecec11;
+}
+
+@media (max-width: 1000px){
+    .container{
+        padding: 0 5%;
+    }
+}

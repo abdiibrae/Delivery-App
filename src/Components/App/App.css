@@ -1,0 +1,102 @@
+.app{
+    display: flex;
+    align-items: center;
+    margin: 190px 80px;
+    justify-content: space-between;
+    
+}
+.app-desc{
+    max-width: 400px;
+    
+}
+.app-desc h2{
+    margin: 10px 0;
+}
+.app-desc p{
+    margin: 20px 0;
+    color: rgb(157, 150, 150);
+    
+}
+.app-icon{
+    width: 400px;
+}
+.appstore-icon{
+    width: 20px;
+   text-align: center;
+   margin-right: 5px;
+}
+.buttons button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    
+}
+.buttons{
+    display: flex;
+   
+}
+@media(max-width: 883px){
+    .app{
+        
+        margin: 190px 30px;
+        
+        
+    }
+    .app-icon{
+        width: 360px;
+    }
+    button{
+        
+        margin: 0 5px;
+        
+    }
+
+}
+
+
+@media(max-width: 768px){
+    .app{
+        
+        margin: 190px 10px;
+        
+        
+    }
+    .app-icon{
+        width: 300px;
+    }
+    .app-desc{
+        max-width: 280px;
+        
+    }
+    button{
+        
+        flex-direction: column;
+        margin: 0 2px;
+        
+    }
+}
+
+
+@media(max-width: 650px){
+    .app{
+       flex-direction: column-reverse;
+       gap: 50px;
+    }
+    .app-desc h2{
+        margin: 10px 0;
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .app-icon{
+        width: 270px;
+    }
+    button{
+        
+        flex-direction: row;
+        margin: 0 2px;
+        
+    }
+}
